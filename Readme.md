@@ -2,6 +2,7 @@
 
 ## Table of Contents
 - [Introduction](Readme.md#Graphs)
+- [Types of Graphs](Readme.md#Types-Of-Graphs:)
 - [Graph Terminologies](Readme.md#terminologies-in-graph)
 
 ## Introduction
