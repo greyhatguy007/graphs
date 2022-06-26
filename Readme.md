@@ -4,7 +4,7 @@
 
 A graph is a non-linear data structure that consists of a set of non-empty **Vertices** with a set of **Edges**.Each edge joins two different Vertices.
 
-<p align="center">
+<p align="center" >
     <img src="resources/simple_graph.png" width="35%" height="35%" title="Graph - Edge and Vertex">
 </p>
 
@@ -151,3 +151,28 @@ If every edge in the graph is assigned some weight (or) value, then the graph is
 
 *Weighted Graph*
 </div>
+
+### <u>Pendant Vertex</u>
+A vertex whose indegree is 1 and outdegree is 0 is referred to as *Pendant Vertex*.
+
+## Representation of a Graph
+
+### <u>Incidence Matrix</u>
+A graph containing m vertices and n edges can be represented by a matrix with m rows and n columns. The matrix is formed by storing 1 in the i<sup>th</sup> row and j<sup>th</sup> column corresponding to the matrix, if there exists a i<sup>th</sup> vertex connected to one end of the j<sup>th</sup> edge and a 0 if there is no i<sup>th</sup> vertex connected to any end of the j<sup>th</sup> edge of the graph, such a matrix is referred to as *incidence matrix*.
+
+<br/>
+
+<p align="center"><i>Consider the given weighted graph</i></p>
+
+<div align="center">
+    <img src="resources/incidence_matrix.png" width="35%" height="35%" title="Weighted Graph">
+</div>
+
+The Incidence Matrix for this graph is given by:
+
+|               | E<sub>1</sub> | E<sub>2</sub> | E<sub>3</sub> |
+|---------------|---------------|---------------|---------------|
+| V<sub>1</sub> | 1             | 0             | 0             |
+| V<sub>2</sub> | 0             | 1             | 0             |
+| V<sub>3</sub> | 0             | 0             | 1             |
+| V<sub>4</sub> | 1             | 1             | 1             |
