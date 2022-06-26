@@ -1,8 +1,8 @@
-# [<u>Graphs</u>](#title)
+# <u>Graphs</u>
 
 ## Table of Contents
-- [Introduction](Readme.md#title)
-- [Graph Terminologies](Readme.md#graph_terminologies)
+- [Introduction](Readme.md#Graphs)
+- [Graph Terminologies](Readme.md#terminologies-in-graph)
 
 ## Introduction
 
@@ -43,7 +43,7 @@ Here A is called the *Tail node* and B is called the *Head node*
 - A graph may not have multiple occurrence of the same edges *(multigraph)*
 
 
-## [Terminologies in Graph](#graph_terminologies)
+## Terminologies in Graph
 
 ### <u> Path </u>
 
