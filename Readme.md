@@ -12,7 +12,7 @@ A graph is a non-linear data structure that consists of a set of non-empty **Ver
  1. Undirected Graph
  2. Directed Graph
 
-## Directed Graph
+## Undirected Graph
 
 If an edge between any two nodes is *not directly oriented*, then it is undirected graph
 <p align="center">
@@ -104,4 +104,50 @@ If any vertex dosen't have a directed path to any other vertices, then the graph
     <img src="resources/weakly_connected.png" width="35%" height="35%" title="Connected Undirected Graph">
 
 *Weakly Connected graph*
+</div>
+
+### <u>Degree of a graph </u>
+
+#### <u>Unirected Graph Degree</u>
+
+Undirected graph only have one degree, ie. the The number of edges connected directly to a node
+<div align="center">
+    <img src="resources/path.png" width="35%" height="35%" title="Undirected Graph Degree">
+
+*The degree of A is 2*
+</div>
+
+#### <u>Directed Graph Degree</u>
+
+Directed Graphs have two types of degrees, namely
+
+- **Indegree** - The number of edges entering the node. 
+- **Outdegree** - The number of edges leaving the node.
+
+<br/>
+<div align="center">
+    <img src="resources/digraph.png" width="35%" height="35%" title="Directed Graph Degree">
+</div>
+
+| Node | Indegree | Outdegree |
+|------|----------|-----------|
+| A    | 1        | 1         |
+| B    | 1        | 1         |
+
+### <u>Source Vertex</u>
+A vertex whose *indegree is zero* is referred as source vertex.
+
+### <u>Sink Vertex</u>
+A vertex whose *outdegree is zero* is referred as sink vertex.
+
+### <u>Isolated Vertex</u>
+If a graph has onlu one vertex in it, it is a isolated graph vertex.
+
+### <u> Weighted Graph</u>
+If every edge in the graph is assigned some weight (or) value, then the graph is called *Weighted Graph*
+
+<div align="center">
+    <img src="resources/weighted_graph.png" width="35%" height="35%" title="Weighted Graph">
+
+*Weighted Graph*
 </div>
