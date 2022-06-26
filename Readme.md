@@ -168,6 +168,10 @@ A graph containing m vertices and n edges can be represented by a matrix with m 
     <img src="resources/incidence_matrix.png" width="35%" height="35%" title="Weighted Graph">
 </div>
 
+
+    incidence_matrix[i][j] = 1, if there is an edge
+                             0, otherwise
+
 The Incidence Matrix for this graph is given by:
 
 |               | E<sub>1</sub> | E<sub>2</sub> | E<sub>3</sub> |
