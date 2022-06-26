@@ -1,9 +1,29 @@
 # <u>Graphs</u>
 
 ## Table of Contents
-- [Introduction](Readme.md#Graphs)
-- [Types of Graphs](Readme.md#types-of-graphs)
-- [Graph Terminologies](Readme.md#terminologies-in-graph)
+- [Introduction](#Graphs)
+- [Types of Graphs](#types-of-graphs)
+    - [Undirected Graph](#undirected-graph)
+    - [Directed Graph](#directed-graph-or-digraph)
+- [Restriction on a Graph](#urestriction-on-a-graphu)
+- [Graph Terminologies](#terminologies-in-graph)
+    - [Path](#u-path-u)
+    - [Cycle](#u-cycle-u)
+    - [Complete Graph](#u-complete-graph-u)
+    - [Subgraph](#u-subgraph-u)
+    - [Connected Graph](#u-connected-graph-u)
+        - [Unirected](#uundirectedu)
+        - [Directed](#udirectedu)
+    - [Degree of a Graph](#udegree-of-a-graph-u)
+        - [Undirected Graph Degree](#uundirected-graph-degreeu)
+        - [Directed Graph Degree](#udirected-graph-degreeu)
+    - [Source Vertex](#usource-vertexu)
+    - [Sink Vertex](#usink-vertexu)
+    - [Isolated Vertec](#uisolated-vertexu)
+    - [Weighted Graph](#u-weighted-graphu)
+    - [Pendant Vertex](#upendant-vertexu)
+- [Representation of a Graph](#representation-of-a-graph)
+    - [Incidence Matrix](#uincidence-matrixu)
 
 ## Introduction
 
@@ -114,7 +134,7 @@ If any vertex dosen't have a directed path to any other vertices, then the graph
 
 ### <u>Degree of a graph </u>
 
-#### <u>Unirected Graph Degree</u>
+#### <u>Undirected Graph Degree</u>
 
 Undirected graph only have one degree, ie. the The number of edges connected directly to a node
 <div align="center">
