@@ -1,8 +1,8 @@
 # [<u>Graphs</u>](#title)
 
 ## Table of Contents
-- [Introduction](#title)
-- [Graph Terminologies](#graph_terminologies)
+- [Introduction](Readme.md#title)
+- [Graph Terminologies](Readme.md#graph_terminologies)
 
 ## Introduction
 
