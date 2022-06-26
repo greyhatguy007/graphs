@@ -1,4 +1,8 @@
-# <u>Graphs</u>
+# [<u>Graphs</u>](#title)
+
+## Table of Contents
+- [Introduction](Readme.md/title)
+- [Graph Terminologies](Readme.md/graph_terminologies)
 
 ## Introduction
 
@@ -38,7 +42,8 @@ Here A is called the *Tail node* and B is called the *Head node*
 - A graph may not have an edge from a vertex V back to itself. If it has an eged to itself, then it is called **Self edges**.
 - A graph may not have multiple occurrence of the same edges *(multigraph)*
 
-## Terminologies in Graph
+
+## [Terminologies in Graph](#graph_terminologies)
 
 ### <u> Path </u>
 
