@@ -2,7 +2,7 @@
 
 ## Table of Contents
 - [Introduction](Readme.md#Graphs)
-- [Types of Graphs](Readme.md#Types-Of-Graphs:)
+- [Types of Graphs](Readme.md#types-of-graphs)
 - [Graph Terminologies](Readme.md#terminologies-in-graph)
 
 ## Introduction
@@ -13,7 +13,7 @@ A graph is a non-linear data structure that consists of a set of non-empty **Ver
     <img src="resources/simple_graph.png" width="35%" height="35%" title="Graph - Edge and Vertex">
 </p>
 
-### Types Of Graphs:
+### Types Of Graphs
  1. Undirected Graph
  2. Directed Graph
 
