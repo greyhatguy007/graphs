@@ -5,25 +5,25 @@
 - [Types of Graphs](#types-of-graphs)
     - [Undirected Graph](#undirected-graph)
     - [Directed Graph](#directed-graph-or-digraph)
-- [Restriction on a Graph](#urestriction-on-a-graphu)
+- [Restriction on a Graph](#restriction-on-a-graph)
 - [Graph Terminologies](#terminologies-in-graph)
-    - [Path](#u-path-u)
-    - [Cycle](#u-cycle-u)
-    - [Complete Graph](#u-complete-graph-u)
-    - [Subgraph](#u-subgraph-u)
-    - [Connected Graph](#u-connected-graph-u)
-        - [Unirected](#uundirectedu)
-        - [Directed](#udirectedu)
-    - [Degree of a Graph](#udegree-of-a-graph-u)
-        - [Undirected Graph Degree](#uundirected-graph-degreeu)
-        - [Directed Graph Degree](#udirected-graph-degreeu)
-    - [Source Vertex](#usource-vertexu)
-    - [Sink Vertex](#usink-vertexu)
-    - [Isolated Vertec](#uisolated-vertexu)
-    - [Weighted Graph](#u-weighted-graphu)
-    - [Pendant Vertex](#upendant-vertexu)
+    - [Path](#path)
+    - [Cycle](#cycle)
+    - [Complete Graph](#complete-graph)
+    - [Subgraph](#subgraph)
+    - [Connected Graph](#connected-graph)
+        - [Unirected](#undirected)
+        - [Directed](#directed)
+    - [Degree of a Graph](#degree-of-a-graph)
+        - [Undirected Graph Degree](#undirected-graph-degree)
+        - [Directed Graph Degree](#directed-graph-degree)
+    - [Source Vertex](#source-vertex)
+    - [Sink Vertex](#sink-vertex)
+    - [Isolated Vertec](#isolated-vertex)
+    - [Weighted Graph](#weighted-graph)
+    - [Pendant Vertex](#pendant-vertex)
 - [Representation of a Graph](#representation-of-a-graph)
-    - [Incidence Matrix](#uincidence-matrixu)
+    - [Incidence Matrix](#incidence-matrix)
 
 ## Introduction
 
@@ -58,7 +58,7 @@ If an edge between any two nodes is *directly oriented, then it is directed grap
 
 Here A is called the *Tail node* and B is called the *Head node*
 
-### <u>Restriction On a Graph</u>
+### Restriction On a Graph
 
 - A graph may not have an edge from a vertex V back to itself. If it has an eged to itself, then it is called **Self edges**.
 - A graph may not have multiple occurrence of the same edges *(multigraph)*
@@ -66,7 +66,7 @@ Here A is called the *Tail node* and B is called the *Head node*
 
 ## Terminologies in Graph
 
-### <u> Path </u>
+### Path 
 
 A path is a sequence of distinct Vertices each adjacent ot the next.
 
@@ -76,7 +76,7 @@ A path is a sequence of distinct Vertices each adjacent ot the next.
 *Path from A to C is (A,B),(B,C)*
 </div>
 
-### <u> Cycle </u>
+### Cycle
 
 A cycle is a simple path in which first and last vertices are same.
 
@@ -90,7 +90,7 @@ In a digraph. a cycle is referred as *Directed Cycle*.
 
 **Note : The maximum number of edges in a graph with *n* vertices is *n(n+1)/2***
 
-### <u> Complete Graph </u>
+### Complete Graph
 
 An n-vertex, undirected graph with *exactly n(n+1)/2 edges* is said to be a complete graph.
 
@@ -100,7 +100,7 @@ An n-vertex, undirected graph with *exactly n(n+1)/2 edges* is said to be a comp
 *n=4, no of edges = 4(4+1)/2 = 6*
 </div>
 
-### <u> Subgraph </u>
+### Subgraph
 
 A subgraph of G is a graph G' such that *V(G') is a subset of V(G)
 
@@ -110,11 +110,11 @@ A subgraph of G is a graph G' such that *V(G') is a subset of V(G)
 *Subgraphs of G*
 </div>
 
-### <u> Connected Graph </u>
-#### <u>Undirected</u>
+### Connected Graph 
+#### Undirected
 
 If there exists a path from any vertex to any other vertex, then that graph is called **connected graph**.
-#### <u>Directed</u>
+#### Directed
 
 If for every pair of distinct vertices there is a directed path from every vertex to every other vertices, then that graph is called **Strongly connected graph**.
 
@@ -132,9 +132,9 @@ If any vertex dosen't have a directed path to any other vertices, then the graph
 *Weakly Connected graph*
 </div>
 
-### <u>Degree of a graph </u>
+### Degree of a graph
 
-#### <u>Undirected Graph Degree</u>
+#### Undirected Graph Degree
 
 Undirected graph only have one degree, ie. the The number of edges connected directly to a node
 <div align="center">
@@ -143,7 +143,7 @@ Undirected graph only have one degree, ie. the The number of edges connected dir
 *The degree of A is 2*
 </div>
 
-#### <u>Directed Graph Degree</u>
+#### Directed Graph Degree
 
 Directed Graphs have two types of degrees, namely
 
@@ -160,16 +160,16 @@ Directed Graphs have two types of degrees, namely
 | A    | 1        | 1         |
 | B    | 1        | 1         |
 
-### <u>Source Vertex</u>
+### Source Vertex
 A vertex whose *indegree is zero* is referred as source vertex.
 
-### <u>Sink Vertex</u>
+### Sink Vertex
 A vertex whose *outdegree is zero* is referred as sink vertex.
 
-### <u>Isolated Vertex</u>
+### Isolated Vertex
 If a graph has onlu one vertex in it, it is a isolated graph vertex.
 
-### <u> Weighted Graph</u>
+### Weighted Graph
 If every edge in the graph is assigned some weight (or) value, then the graph is called *Weighted Graph*
 
 <div align="center">
@@ -178,12 +178,12 @@ If every edge in the graph is assigned some weight (or) value, then the graph is
 *Weighted Graph*
 </div>
 
-### <u>Pendant Vertex</u>
+### Pendant Vertex
 A vertex whose indegree is 1 and outdegree is 0 is referred to as *Pendant Vertex*.
 
 ## Representation of a Graph
 
-### <u>Incidence Matrix</u>
+### Incidence Matrix
 A graph containing m vertices and n edges can be represented by a matrix with m rows and n columns. The matrix is formed by storing 1 in the i<sup>th</sup> row and j<sup>th</sup> column corresponding to the matrix, if there exists a i<sup>th</sup> vertex connected to one end of the j<sup>th</sup> edge and a 0 if there is no i<sup>th</sup> vertex connected to any end of the j<sup>th</sup> edge of the graph, such a matrix is referred to as *incidence matrix*.
 
 <br/>
