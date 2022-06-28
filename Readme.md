@@ -24,6 +24,8 @@
     - [Pendant Vertex](#pendant-vertex)
 - [Representation of a Graph](#representation-of-a-graph)
     - [Incidence Matrix](#incidence-matrix)
+    - [Adjacency Matrix](#adjacency-matrix)
+    - [Adjacency List](#adjacency-list)
 
 ## Introduction
 
@@ -206,3 +208,30 @@ The Incidence Matrix for this graph is given by:
 | V<sub>2</sub> | 0             | 1             | 0             |
 | V<sub>3</sub> | 0             | 0             | 1             |
 | V<sub>4</sub> | 1             | 1             | 1             |
+
+### Adjacency Matrix
+
+A graph containing n vertices can be represented by a matrix with n rows and n columns if there exists an edge between i<sup>th</sup> and j<sup>th</sup> vertex of the graph, then 1 is stored in the i<sup>th</sup> row and j<sup>th</sup> column of the matrix, otherwise 0 is stored.
+
+<div align="center">
+<img src="resources/adjacency.png">
+</div>
+
+The Adjacency matrix for the graph is given by:
+
+|   | A | B | C | D |
+|---|---|---|---|---|
+| A | 0 | 1 | 0 | 0 |
+| B | 0 | 0 | 1 | 0 |
+| C | 1 | 0 | 0 | 0 |
+| D | 1 | 1 | 1 | 0 |
+
+
+### Adjacency List
+
+A graph containing m vertices and n edges can be represented using a linked list is referred to as *adjacency list*.
+
+#### Adjacency List for Undirected Graph
+
+| V<sub>1</sub> | V<sub>2</sub> |
+|---------------|---------------|
